@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><cinema>
+
+    <movies>
+        <movie ID="1">
+            <nameF>John Wick</nameF>
+            <year>2014</year>
+            <category-ref ref="Action"/>
+            <actor-ref ref1="Marry"/>
+        </movie>
+
+        <movie ID="2">
+            <nameF>The Guilty</nameF>
+            <year>2021</year>
+            <category-ref ref="Thriller"/>
+            <actor-ref ref1="John"/>
+        </movie>
+
+        <movie ID="3">
+            <nameF>Jumanji - Aventura in jungla</nameF>
+            <year>2017</year>
+            <category-ref ref="Comedy"/>
+            <actor-ref ref1="Kevin"/>
+        </movie>
+    </movies>
+
+    <actors>
+        <actor ID="Dwayne">
+            <firstname>Dwayne</firstname>
+            <lastname>Johnson</lastname>
+            <age>51</age>
+        </actor>
+        <actor ID="Keanu">
+            <firstname>Keanu</firstname>
+            <lastname>Reeves</lastname>
+            <age>58</age>
+        </actor>
+        <actor ID="Jake">
+            <firstname>Jake</firstname>
+            <lastname>Gyllenhaal</lastname>
+            <age>43</age>
+        </actor>
+    <actor ID=""><firstname/><lastname/><age>65</age></actor><actor ID=""><firstname/><lastname/><age>65</age></actor></actors>
+
+    <categories>
+        <category ID="Action">
+            <nameC>Action</nameC>
+            <ageRec>12</ageRec>
+        </category>
+        <category ID="Comedy">
+            <nameC>Comedy</nameC>
+            <ageRec>13</ageRec>
+        </category>
+        <category ID="Thriller">
+            <nameC>Thriller</nameC>
+            <ageRec>13</ageRec>
+        </category>
+    </categories>
+
+</cinema>
